@@ -11,5 +11,6 @@
 2. Criando seu Primeiro Repoitório no Github Para Compartilhar seu Progresso;
 3. Introdução a Criação de Websites com HTML5  e CSS3;
 4. Posicionamento Elementos com Flexbos em CSS;
-5. ...
+5. Introdução ao JavaScript;
+6. ​
 
