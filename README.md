@@ -12,5 +12,8 @@
 3. Introdução a Criação de Websites com HTML5  e CSS3;
 4. Posicionamento Elementos com Flexbos em CSS;
 5. Introdução ao JavaScript;
-6. ​
+6. Síntaxe e operadores;
+7. Variáveis e tipos;
+8. Tipos de função;
+9. Maps e sets;
 
