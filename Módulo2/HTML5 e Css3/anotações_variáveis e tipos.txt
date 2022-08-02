@@ -1,0 +1,68 @@
+14/07
+
+Não se preocupe com a opinião alheia, o que importa é o que somos,
+Tenha consciência tranquila, não se esqueça de Jesus.
+
+Ao trabalhar com o público, tenha paciência.
+
+Na falta de boa educação, evidencie sua postura de calma e paciência.
+Procure compreender e servir com AMOR.
+
+Pontos: Dinheiro, circulo da manifestação, alegria
+
+
+Atividade Variáveis e Tipo
+
+
+Atividade 1 Verifique, de duas maneiras diferentes entre si se uma string
+é um palíndromo.
+
+Palíndromo= frawe ou palavra que se pode ler, indiferentemente
+da esquerda para a direita ou vice-versa.
+
+
+Solução 1
+
+iniciamos com uma função que será uma string
+
+function verificaPalindromo(string){
+
+com if(!string) informamos que se a informação for diferente de string iremos
+retornar com a mensagem "string inexistente"
+
+if(!string) return "string inexistente";
+
+caso a string exista iremos usar uma série de métodos encadeados,
+método.split: que permite dividir/separar strings e retornar um array. EM seguida 
+usaremos p método reverse() para reverter os caracteres colocando ao contrário
+ com o .join juntamos os elementos da string.
+
+return string.split("").reverse().join("") === string;
+}
+
+
+
+Solução 2
+
+function verificaPalindromo2(string) {
+
+
+if (!string) return "string inexistente";
+
+e se a string existir iremos fazer um loop com um for, então iciaremos com um índice que irá
+começar no zero
+
+
+
+for(let i = 0) e enquanto o indice for < que string.legth; vamos aumentar i++
+
+
+
+
+
+
+
+
+
+
+

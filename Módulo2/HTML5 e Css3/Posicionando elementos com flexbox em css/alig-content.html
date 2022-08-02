@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - align-content</title>
+
+    <style>
+        .container{
+          height: 400px;
+          max-width: 300px;
+            border: 1px solid black;
+            display: flex;
+            margin: 0 auto ;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .item{
+            background-color: rgb(0, 255, 179);
+            padding: 0 5px;
+            flex:1;
+            text-align: center;
+            color:black;
+            margin: 5px;
+            border: 2px solid black;
+        }
+
+        .stretch{
+            align-content: stretch;
+        }
+        .center{
+            align-content: center;
+
+        }
+        .flex-start{
+            align-content: flex-start;
+        }
+        .flex-end{
+            align-content: flex-end;
+        }
+        .space-around{
+            align-content: space-around;
+        }
+        .space-between{
+            align-content: space-between;
+        }
+  </style>      
+</head>
+<body>
+    <p>stretch</p>
+   <div class="container stretch">
+    <div class="item">Não se compare a ninguém</div>
+    <div class="item">Respire, respirar cura</div>
+    <div class="item">Motive-se!!</div>
+    <div class="item">Acolha-se</div>
+    <div class="item">Pratique a gratidão!</div>
+    <div class="item">Não tenha medo da vida, tenha medo de não vivê-la.</div>
+    <div class="item">Lute pelo que você ama.</div>
+    <div class="item">Acolha-se</div>
+    
+    </div>
+
+    <p>center</p>
+   <div class="container center">
+    <div class="item">Não se compare a ninguém</div>
+    <div class="item">Respire, respirar cura</div>
+    <div class="item">Motive-se!!</div>
+    <div class="item">Acolha-se</div>
+    <div class="item">Pratique a gratidão!</div>
+    <div class="item">Não tenha medo da vida, tenha medo de não vivê-la.</div>
+    <div class="item">Lute pelo que você ama.</div>
+    <div class="item">Acolha-se</div>
+   </div>
+    <p>flex-start</p>
+    <div class="container flex-start">
+     <div class="item">Não se compare a ninguém</div>
+     <div class="item">Respire, respirar cura</div>
+     <div class="item">Motive-se!!</div>
+     <div class="item">Acolha-se</div>
+     <div class="item">Pratique a gratidão!</div>
+     <div class="item">Não tenha medo da vida, tenha medo de não vivê-la.</div>
+     <div class="item">Lute pelo que você ama.</div>
+     <div class="item">Acolha-se</div>
+    </div>
+     <p>flex-end</p>
+     <div class="container flex-end">
+      <div class="item">Não se compare a ninguém</div>
+      <div class="item">Respire, respirar cura</div>
+      <div class="item">Motive-se!!</div>
+      <div class="item">Acolha-se</div>
+      <div class="item">Pratique a gratidão!</div>
+      <div class="item">Não tenha medo da vida, tenha medo de não vivê-la.</div>
+      <div class="item">Lute pelo que você ama.</div>
+      <div class="item">Acolha-se</div>
+    </div>
+
+    <p>space-around</p>
+    <div class="container space-around">
+     <div class="item">Não se compare a ninguém</div>
+     <div class="item">Respire, respirar cura</div>
+     <div class="item">Motive-se!!</div>
+     <div class="item">Acolha-se</div>
+     <div class="item">Pratique a gratidão!</div>
+     <div class="item">Não tenha medo da vida, tenha medo de não vivê-la.</div>
+     <div class="item">Lute pelo que você ama.</div>
+     <div class="item">Acolha-se</div>
+   </div>
+
+   <p>space-between</p>
+   <div class="container space-between">
+    <div class="item">Não se compare a ninguém</div>
+    <div class="item">Respire, respirar cura</div>
+    <div class="item">Motive-se!!</div>
+    <div class="item">Acolha-se</div>
+    <div class="item">Pratique a gratidão!</div>
+    <div class="item">Não tenha medo da vida, tenha medo de não vivê-la.</div>
+    <div class="item">Lute pelo que você ama.</div>
+    <div class="item">Acolha-se</div>
+  </div>
+
+    </div>
+
+</body>
+</html>
